@@ -25,3 +25,11 @@ body {
   position: relative;
   border: 15px solid black;
 }
+
+#gameName {
+  font-family: 'Press Start 2P', cursive;
+  font-weight: bold;
+  color: white;
+  font-size: 25px; 
+}
+
