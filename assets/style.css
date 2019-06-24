@@ -13,3 +13,15 @@ body {
   position: relative;
   box-shadow: 8px 8px 15px 5px #888888;
 }
+
+#innerCircle {
+  margin: 84px;
+  background-color: #494646;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  padding: 30px;
+  overflow: hidden;
+  position: relative;
+  border: 15px solid black;
+}
