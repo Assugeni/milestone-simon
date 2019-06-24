@@ -92,3 +92,7 @@ body {
   display: block;
   margin-top: 1px;
 }
+
+#controls {
+  height: 75px;
+}
