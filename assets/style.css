@@ -1,3 +1,15 @@
 body {
   background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/woven.png");
 }
+
+.circle {
+  margin: 33px;
+  border: solid 10px black;
+  background-color: black;
+  height: 500px;
+  width: 500px;
+  padding: 30px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 8px 8px 15px 5px #888888;
+}
