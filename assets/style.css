@@ -33,3 +33,11 @@ body {
   font-size: 25px; 
 }
 
+#scoreBox {
+  font-family: 'Digital-7 Mono', arial;
+  font-weight: bold;
+  font-size: 24px;
+  height: 40px;
+  width: 65px;
+  border: 3px solid #333333;
+  border-radius: 10px;
