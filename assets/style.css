@@ -105,3 +105,15 @@ body {
   margin-left: 10px;
   border-radius: 5px;
 }
+
+#onOffSwitch {
+  margin-top: 2px;
+  width: 15px;
+  height: 15px;
+  background-color: LightBlue;
+  margin-left: 0px;
+  padding-left: 0px;
+  border-left: 0px;
+  float: left;
+  border-radius: 2px;
+}
