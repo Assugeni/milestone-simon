@@ -165,3 +165,14 @@ body {
   margin-left: 20px;
   color: black;
 }
+
+.quad1 {
+  position: absolute;
+  background-color: red;
+  width: 50%;
+  height: 45%;
+  left: 55%;
+  right: 0%;
+  bottom: 50%;
+  top: 0%; 
+}
