@@ -123,3 +123,17 @@ body {
   font-weight: bold;
   font-family: 'Open Sans Condensed', sans-serif;
 }
+
+#onText {
+  padding-right: 0px;
+  margin-left: 10px;
+  padding-top: 10px;
+  width: 30%;
+}
+
+#offText {
+  padding-left: 8px;
+  border: 0px;
+  padding-top: 10px;
+  width: 30%;
+}
