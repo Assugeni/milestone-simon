@@ -117,3 +117,9 @@ body {
   float: left;
   border-radius: 2px;
 }
+
+#onOff {
+  height: 45px;
+  font-weight: bold;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
