@@ -137,3 +137,11 @@ body {
   padding-top: 10px;
   width: 30%;
 }
+
+#ctrlLabls {
+  margin-top: 0%;
+  padding-top: 0%;
+  border-top: 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+}
