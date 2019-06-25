@@ -145,3 +145,23 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: bold;
 }
+
+#labels {
+  margin-top: 0%;
+  padding-top: 0%;
+  border-top: 0px;
+  margin-left: 20px;
+  color: black;
+  
+}
+
+#labels1 {
+  margin-top: 0%;
+  margin-left: 30px;
+  color: black;
+}
+
+#labels2 {
+  margin-left: 20px;
+  color: black;
+}
