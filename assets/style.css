@@ -198,3 +198,14 @@ body {
   bottom: 0%;
   top: 55%;
 }
+
+.quad4 {
+  position: absolute;
+  background-color: blue;
+  width: 50%;
+  height: 50%;
+  left: 55%;
+  right: 0%;
+  bottom: 0%;
+  top: 55%;
+}
