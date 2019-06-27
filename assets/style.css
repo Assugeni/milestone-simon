@@ -221,3 +221,47 @@ body {
   border: 2px solid #333333;
   background-color: red;
 }
+
+.quad1active {
+  position: absolute;
+  background-color: DarkRed;
+  width: 50%;
+  height: 45%;
+  left: 55%;
+  right: 0%;
+  bottom: 50%;
+  top: 0%; 
+}
+
+.quad2active {
+  position: absolute;
+  background-color: DarkGreen;
+  width: 45%;
+  height: 45%;
+  left: 0%;
+  right: 45%;
+  bottom: 50%;
+  top: 0%; 
+}
+
+.quad3active {
+  position: absolute;
+  background-color: #CCCC00;
+  width: 45%;
+  height: 50%;
+  left: 0;
+  right: 50%;
+  bottom: 0%;
+  top: 55%;
+}
+
+.quad4active {
+  position: absolute;
+  background-color: DarkBlue;
+  width: 50%;
+  height: 50%;
+  left: 55%;
+  right: 0%;
+  bottom: 0%;
+  top: 55%;
+}
