@@ -265,3 +265,13 @@ body {
   bottom: 0%;
   top: 55%;
 }
+
+
+#instructions {
+    width: 380px;
+    height: 190px;
+    background-color: #d8cfc0;
+    padding-top: 15px;
+    margin: 0 auto auto auto;
+    border-radius: 20px;
+}
