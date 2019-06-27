@@ -209,3 +209,15 @@ body {
   bottom: 0%;
   top: 55%;
 }
+
+
+.active {
+  padding-top: 10px;
+  margin-left: 10px;
+  padding-left: 7px;
+  padding-right: 2px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #333333;
+  background-color: red;
+}
