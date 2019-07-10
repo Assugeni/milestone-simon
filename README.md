@@ -23,3 +23,16 @@ Simon plays a randomly generated sequence for the player to repeat using colours
 - Inviting sounds & bright colours have been added to each pad to give the player a clear distinction between each pad.
 
 
+### Core features
+
+- Turn ON
+Powers on the game, will stand by until the player starts the game.
+
+- Turn OFF
+Powers off the game.
+
+- Start Button 
+When 'Start' is clicked, the game begins & the computer will begin its first sequence for the player to follow. Every time that the button is pressed, it will begin a brand new sequence.
+
+- Strict Button
+When strict mode is active (red), if at anytime the player get a sequence wrong, it will be game over. If strict mode is not active (black), the player will be able to repeat a sequence over & over until they manage to get it right, strict mode not being active will not be limited and the player can play for however long he likes.
