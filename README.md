@@ -41,6 +41,39 @@ When strict mode is active (red), if at anytime the player get a sequence wrong,
 
 1.  JavaScript
 
-2.  jQuery v3.3.1
+2.  jQuery v2.1.3
+
+3.  HTML5
+
+4.  CSS
+
+5. Google fonts
+
+14. Chrome and Firefox developer tools
+
+    -   Used extensively for live-testing and running numerous different tasks.
+        To name a few:
+
+        -   Testing core functions.
+
+        -   Website/grid responsiveness.
+
+        -   Element Colours, style, opacity and etc.
+
+        -   Aligning and centring.
+
+        -   Attribute value search.
+        
+
+15. Git/Github
+
+    -   Used to keep track of the project’s evolution with frequent commits and
+        informative messages.
+
+
+16. Cloud9
+
+    -   Used as the main editor.
+
 
 
