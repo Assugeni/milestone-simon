@@ -97,3 +97,6 @@ When strict mode is active (red), if at anytime the player get a sequence wrong,
 - Ideas on how to write out my CSS for the Simon Board: [How to Program Simon Game: CSS](https://www.youtube.com/watch?v=muPIIfjazcU).
 - Ideas on how to get started with the Javascript for the Simon Board: [Simon Game JavaScript Tutorial for Beginners](https://www.youtube.com/watch?v=n_ec3eowFLQ).
 
+## Disclaimer
+
+All content on the website, including images, are used for educational purposes only.
