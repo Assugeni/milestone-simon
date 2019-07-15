@@ -15,6 +15,10 @@ Milestone Project 2 -Simon Game
 
 Simon plays a randomly generated sequence for the player to repeat using colours and tones. The player has the sole goal of repeating the same sequence as Simon to win the game. The sequence will get longer and longer as the player progresses to higher levels.
 
+### Mockups 
+
+- Please find paper and pen mockup for the original first design.
+
 ### Player Experience
 
 - Players immediately experience a clear, easy and intuitive feel for the game right away. Simple controls which allow the player to have an easy understanding of how to play the game. 
