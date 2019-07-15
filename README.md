@@ -39,5 +39,8 @@ When strict mode is active (red), if at anytime the player get a sequence wrong,
 
 ### Technologies used 
 
+1.  JavaScript
+
+2.  jQuery v3.3.1
 
 
