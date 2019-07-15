@@ -22,7 +22,8 @@ Simon plays a randomly generated sequence for the player to repeat using colours
 ### Player Experience
 
 - Players immediately experience a clear, easy and intuitive feel for the game right away. Simple controls which allow the player to have an easy understanding of how to play the game. 
-- Should the player be confused at any point, a 'Game-Info' box has been provided to give an informative description of what features the game has to offer.
+
+- Should the player be confused at any point, a 'Instructions' box has been provided to give an informative description of what features the game has to offer.
 
 - Inviting sounds & bright colours have been added to each pad to give the player a clear distinction between each pad.
 
