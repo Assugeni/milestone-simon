@@ -53,7 +53,9 @@ When strict mode is active (red), if at anytime the player get a sequence wrong,
 
 5. Google fonts
 
-14. Chrome and Firefox developer tools
+6. Bootstrap v3.3.5
+
+7. Chrome and Firefox developer tools
 
     -   Used extensively for live-testing and running numerous different tasks.
         To name a few:
@@ -69,13 +71,13 @@ When strict mode is active (red), if at anytime the player get a sequence wrong,
         -   Attribute value search.
         
 
-15. Git/Github
+8. Git/Github
 
     -   Used to keep track of the project’s evolution with frequent commits and
         informative messages.
 
 
-16. Cloud9
+9. Cloud9
 
     -   Used as the main editor.
 
