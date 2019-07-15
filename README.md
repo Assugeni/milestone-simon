@@ -17,7 +17,7 @@ Simon plays a randomly generated sequence for the player to repeat using colours
 
 ### Mockups 
 
-- Please find paper and pen mockup for the original first design.
+- Please find paper and pen mockup for the original first design.(https://ibb.co/kGsfBzm/)
 
 ### Player Experience
 
