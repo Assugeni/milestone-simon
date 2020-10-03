@@ -1,78 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=0.7, maximum-scale=1.0, user-scalable=no" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="assets/style.css" type="text/css" />
 	<title>Simon Game</title>
 </head>
 
-<body>
-<div class="container">
-  <div class="row">
-    <div class="col-md-3 test"></div>
-    <div class="col-md-6 text-center circle">
-      <div id = "gameButtons">
-        <div class = "tile quad1" id="1">
-        </div>
-        <div class = "tile quad2" id="2">
-        </div>
-        <div class = "tile quad3" id="3">
-        </div>
-        <div class = "tile quad4" id="4">
-        </div>
-      </div>
-       <div class="col-md-6 text-center" id="innerCircle">
-        <div class="row" id="name">
-          <span id="gameName">Simon<sup>&#174;</sup></span>
-        </div>
-        <div class="row" id="controls">
-   <div class="col-md-4" id="scoreBox"></div>
-   <div class="col-md-4 debug" id="startBtn">
-   </div>
-   
-<div class="col-md-4" id="twoThings">
-    <div class="row" id="light">
-      <div class="col-md-2 text-center onLight"></div>
-     </div>
-    <div class="row">
-       <div class="col-md-2" id="strictBtn"></div>
-     </div>
-  </div>
- </div>
-
-<div class="row" id="ctrlLabls">
-      <div class="col-md-2" id="labels">Count</div>
-          <div class="col-md-2" id="labels1">Start</div>
-          <div class="col-md-2" id="labels2">Strict</div>
- </div>
- 
- <div class="row" id="onOff">
-          <div class="col-md-2 text-right" id="onText">ON</div>
-          <div class="col-md-2 text-center" id="onSwitch"><div id="onOffSwitch"></div></div>
-          <div class="col-md-2 text-left" id="offText">OFF</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-3"></div>
-</div>
-</div>
-
-<div id="instructions">
-  <h1 id="insTitle">Instructions</h1>
-  <ol id="list">
-    <li>1. Turn on the game and press start. </li>
-    <li>2. Your job is to correctly match the sequence of blinks. </li>
-    <li>3. If strict mode is on, on wrong input, the game will reset back to 1 count.</li>
-  </ol>
-</div>
-	
-
-<script src="https://code.jquery.com/jquery-2.1.3.min.js" integrity="sha256-ivk71nXhz9nsyFDoYoGf2sbjrR9ddh+XDkCcfZxjvcM=" crossorigin="anonymous"></script>
-<script src="./assets/js/index.js"></script>	
+<body style="overflow: hidden;">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 test"></div>
+			<div class="col-md-6 text-center circle">
+				<div id="gameButtons">
+					<div class="tile quad1" id="1"> </div>
+					<div class="tile quad2" id="2"> </div>
+					<div class="tile quad3" id="3"> </div>
+					<div class="tile quad4" id="4"> </div>
+				</div>
+				<div class="col-md-6 text-center" id="innerCircle">
+					<div class="row" id="name"> <span id="gameName">Simon<sup>&#174;</sup></span> </div>
+					<div class="row" id="controls">
+						<div class="col-md-4" id="scoreBox"></div>
+						<div class="col-md-4 debug" id="startBtn"> </div>
+						<div class="col-md-4" id="twoThings">
+							<div class="row" id="light">
+								<div class="col-md-2 text-center onLight"></div>
+							</div>
+							<div class="row">
+								<div class="col-md-2" id="strictBtn"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row" id="ctrlLabls">
+						<div class="col-md-2" id="labels">Count</div>
+						<div class="col-md-2" id="labels1">Start</div>
+						<div class="col-md-2" id="labels2">Strict</div>
+					</div>
+					<div class="row" id="onOff">
+						<div class="col-md-2 text-right" id="onText">ON</div>
+						<div class="col-md-2 text-center" id="onSwitch">
+							<div id="onOffSwitch"></div>
+						</div>
+						<div class="col-md-2 text-left" id="offText">OFF</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+	</div>
+	<div id="instructions">
+		<h1 id="insTitle">Instructions</h1>
+		<ol id="list">
+			<li>1. Turn on the game and press start. </li>
+			<li>2. Your job is to correctly match the sequence of blinks. </li>
+			<li>3. If strict mode is on, on wrong input, the game will reset back to 1 count.</li>
+		</ol>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.1.3.min.js" integrity="sha256-ivk71nXhz9nsyFDoYoGf2sbjrR9ddh+XDkCcfZxjvcM=" crossorigin="anonymous"></script>
+	<script src="./assets/js/index.js"></script>
 </body>
+
 </html>

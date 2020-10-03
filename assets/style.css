@@ -16,7 +16,7 @@ body {
 
 #innerCircle {
   margin: 84px;
-  background-color: #494646;
+  background-color: #8a8a8a;
   border-radius: 50%;
   height: 250px;
   width: 250px;
@@ -30,7 +30,7 @@ body {
   font-family: 'Press Start 2P', cursive;
   font-weight: bold;
   color: white;
-  font-size: 25px; 
+  font-size: 25px;
 }
 
 #scoreBox {
@@ -58,7 +58,7 @@ body {
     margin-right: 15px;
     margin-top: 26px;
  }
- 
+
  #twoThings {
   margin-top: 5px;
   width: 40px;
@@ -152,7 +152,7 @@ body {
   border-top: 0px;
   margin-left: 20px;
   color: black;
-  
+
 }
 
 #labels1 {
@@ -174,7 +174,7 @@ body {
   left: 55%;
   right: 0%;
   bottom: 50%;
-  top: 0%; 
+  top: 0%;
 }
 
 .quad2 {
@@ -230,7 +230,7 @@ body {
   left: 55%;
   right: 0%;
   bottom: 50%;
-  top: 0%; 
+  top: 0%;
 }
 
 .quad2active {
@@ -241,7 +241,7 @@ body {
   left: 0%;
   right: 45%;
   bottom: 50%;
-  top: 0%; 
+  top: 0%;
 }
 
 .quad3active {
@@ -286,4 +286,61 @@ body {
 #list {
     list-style: none;
     padding-left: 20px;
+}
+
+@media screen and (max-width: 620px){
+  .circle {
+    margin: 50px auto;
+    box-shadow: 0px 0px 20px 8px #3a3a3ad3;
+  }
+  #instructions {
+    width: 95%;
+    font-size: 2rem;
+    height: 280px;
+    line-height: 1.5;
+  }
+  div#startBtn{
+    position: absolute;
+    top: 2px;
+    left: 100px;
+  }
+  div#twoThings{
+    position: absolute;
+    top: 2px;
+    left: 150px;
+  }
+  div#light{
+    width: 21px;
+  }
+  div#controls{
+    position: relative;
+  }
+  div#labels,div#labels1,div#labels2{
+    display: inline-block;
+    position: absolute;
+    top: 133px;
+    left: 14px;
+  }
+  div#labels1{
+    left: 67px;
+  }
+  div#labels2{
+    left: 126px;
+  }
+  div#onText{
+    position: absolute;
+    bottom: 25px;
+    left: 8.5px;
+  }
+  div#onSwitch{
+    position: absolute;
+    bottom: 25px;
+    left: 85px;
+    width: 15%;
+  }
+  div#offText{
+    position: absolute;
+    bottom: 25px;
+    right: 17.5px;
+  }
 }
